@@ -1,0 +1,35 @@
+div {
+    /* !important = sobrepoe a prioridade da adição do style */
+    color: black!important; 
+    background-color: aquamarine;
+    border: 3px solid black;
+    border-radius: 10px 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: red;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#enviar {
+    background-color: darkblue;
+}
+
+#limpar {
+    background-color: blueviolet;
+}
+body{
+
+    background-color: rgba(20, 20, 51, 0.952);
+    color: white;
+}

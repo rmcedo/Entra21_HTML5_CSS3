@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução ao CSS | Aulas Entra21</title>
+    <link rel="stylesheet" href="/CSS/area51.css">
+    <style>
+        p {
+            /* Utilizando o nome do seletor, todos os seletores dessa página recebem esse estilo */
+            background-color: rgb(223, 223, 233);
+        }
+
+        .destaque {
+            /* Utilzando PONTO, todos os seletores que tenham o atributo class que contenha esse nome, recebem o estilo */
+            background-color: #07cf39;
+        }
+
+        #especifico{
+            /* Utilzando #, apenas o seletor que tenha o atributo id="especifico" recebe esse estilo */
+            border: 1px solid black;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <a class="destaque "href="/index.html">Página Inicial</a>
+    <hr>
+
+    <!-- Estilo em linha é recomendado quando não passa de tres atributos -->
+
+    <h1
+        style="color:blue;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: italic; text-align: center;">
+        Aprendendo CSS</h1>
+    <span style="border: 1px dashed black;">Texto Normal</span>
+
+    <ul style="font-weight: bold; background-color: green; width: 200px;">
+        <li style=" border-bottom: 1px solid #d5d3da;">A</li>
+        <li style=" border-bottom: 1px solid #d5d3da;">B</li>
+        <li style=" border-bottom: 1px solid #d5d3da;">C</li>
+    </ul>
+
+    <img style="width: 250px ; height:250px; border-radius: 50%; align-items: center;" src="/Mídias/imagem.jpeg" alt="">
+    <!-- border-radius arredondar imagem -->
+    <div style="text-align: center;border: 1px solid black;">
+        <p style="color: black;">A</p>
+        <p style="color: black;">B</p>
+        <p class="destaque"">C</p>
+    </div>
+    <p>Testando CSS</p>
+
+    <span class=" destaque"> No mundo atual, o surgimento do comércio virtual possibilita uma melhor visão global das
+            formas de ação.
+            Percebemos, cada vez mais, que o julgamento imparcial das eventualidades cumpre um papel essencial na
+            formulação
+            da gestão inovadora da qual fazemos parte. Caros amigos, a revolução dos costumes agrega valor ao
+            estabelecimento dos níveis de motivação departamental.
+            </span>
+            <br><br>
+
+
+            <i class="destaque">Hello World</i>
+            <b id="especifico">Hello World</b>
+<br><br>
+            <div>
+                Olá Mundo
+            </div>
+
+
+
+</body>
+
+</html>

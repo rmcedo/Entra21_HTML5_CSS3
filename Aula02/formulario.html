@@ -7,26 +7,26 @@
     <title>Formulário</title>
 </head>
 
-<body>
+<body bgcolor="gray">
     <a href="/index.html">Página Principal</a>
     <hr>
     <form action="mailto:rafael9408@gmail.com?subject=Formulário para Contato" method="post" enctype="text/plain">
         <label for="nome">Nome: </label>
          <input type="text" name="nome" id="nome" placeholder="Informe seu Nome" required><br> <!-- required = são obrigatório -->
 
-        <label for="idade">Idade: </label>
+        <br><label for="idade">Idade: </label>
         <input type="number" name="idade" id="idade"><br> <!--readonly =  apenas leitura, não é possivel editar -->
 
-         <center><input type="reset" value="Limpar"> </center><!--Value: Consigo redefinir o nome do botão reset -->
+        <br> <center><input type="reset" value="Limpar"> </center><!--Value: Consigo redefinir o nome do botão reset -->
          <br><br><label for="tema">Tema Preferido</label><br>   
          <input type="radio" name="tema" value="light"> light
          <input type="radio" name="tema" value="dark"> dark
         
 
          <br><br><label for="nascimento">Data de Nascimento</label>
-            <br><input type="date" name="nascimento">
+            <br><br><input type="date" name="nascimento">
 
-            <label for="cor">Cor Preferida</label>
+            <br><br><label for="cor">Cor Preferida</label>
             <input type="color" name="cor">
             <hr>
             
