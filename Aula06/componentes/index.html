@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentnes Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid">
+
+    <p>Hello World</p>
+
+    <div class="row bg-primary">
+        <div class="col bg-secondary">Linha 1</div>
+        <div class="col">Na mesma linha :)</div>
+        <div class="col bg-success">Eu também estou na mesma linha</div>
+    </div>
+
+    <div class="row bg-danger">
+
+        <div class="col-2 bg-warning">Linha 2</div>
+        <div class="col">Na mesma linha</div>
+
+    </div>
+
+    <div class="row bg-info">
+        <div class="col-1 bg-dark text-white">Linha 3</div>
+        <div class="col">Hi</div>
+        <div class="col-3 bg-light">Hello</div>
+        <div class="col">How are You?</div>
+    </div>
+
+    <div class="row">
+        <div class="col bg-dark"></div>
+        <div class="col-2">Estou no meio</div>
+        <div class="col bg-dark"></div>
+
+        <div class="row">
+            <div class="col-2 text-danger">Texto</div>
+            <div class="col-1 text-warning">Texto</div>
+        </div>
+        <div class="row">
+            <!-- div.alert.alert-cor -->
+            <div class="alert alert-primary">Primary</div>
+            <div class="alert alert-secondary">Secondary</div>
+            <div class="alert alert-danger">Danger</div>
+            <div class="alert alert-warning">Warning</div>
+            <div class="alert alert-info">Info</div>
+            <div class="alert alert-light">Light</div>
+            <div class="alert alert-dark">Dark</div>
+
+            <!-- <div class="alert alert-success alert-dismissible fade show"> CRIAR UM BOTÃO-->
+            <div class="alert alert-danger alert-dismissible fade show">
+                <strong>Acredite</strong> se clicar no botão <strong>X</strong>, algo irá acontecer
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <button class="btn">BOTÃO</button>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Secondary</button>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-light">Light</button>
+            <button class="btn btn-dark">Dark</button>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <!-- Linha do Botão Colorida apenas, se destaca quando passamos por ela -->
+            <button class="btn">BOTÃO2</button>
+            <button class="btn btn-outline-primary">Primary</button>
+            <button class="btn btn-outline-secondary">Secondary</button>
+            <button class="btn btn-outline-danger">Danger</button>
+            <button class="btn btn-outline-warning">Warning</button>
+            <button class="btn btn-outline-info">Info</button>
+            <button class="btn btn-outline-light">Light</button>
+            <button class="btn btn-outline-dark">Dark</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <p>MALHA PV <span class="badge bg-danger">Acabando</span></p>
+            <button type="button" class="btn btn-primary me-3">
+                Notificações: <span class="badge bg-danger ">99+</span>
+            </button>
+
+            <button type="button" class="btn btn-primary position-relative">
+                Notificações: <span
+                    class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill">99+</span>
+
+            </button>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col"></div>
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">Título</div>
+                <div class="card-body">Conteúdo</div>
+                <div class="card-footer">Rodapé</div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col"></div>
+        <div class="col-5">
+            <div class="card">
+                <form>
+                    <div style="text-align: center;" class="card-header bg-dark text-light">Login</div>
+                    <div class="card-body">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Informe seu E-mail"
+                            class="form-control">
+
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua Senha"
+                            class="form-control">
+
+                    </div>
+                    <div class="card-footer">
+                        <input value="Limpar" type="reset" class="btn btn-outline-warning"></input>
+                        <input value="Entrar" type="submit" class="btn btn-outline-success"></input>
+
+
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="col"></div>
+
+
+    </div>
+
+
+
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
